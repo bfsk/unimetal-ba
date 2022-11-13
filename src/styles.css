@@ -3,4 +3,9 @@ body, html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    font-family: Lato, sans-serif;
+    color: rgb(119, 119, 119);
+  }
+  * {
+    box-sizing: border-box;
   }

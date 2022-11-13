@@ -1,51 +1,160 @@
-body, html {
-    height: 100%
+
+  .header-container-img{
+    background: url('../assets/img/header-bg.jpg') right bottom / cover no-repeat;
+ 
+    height: 901px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 673px;
   }
-  
-  .bgimg {
-    /* Background image */
-    background-image: url('../assets/img/forestbridge.jpg');
-    /* Full-screen */
-    height: 100%;
-    /* Center the background image */
-    background-position: center;
-    /* Scale and zoom in the image */
-    background-size: cover;
-    /* Add position: relative to enable absolutely positioned elements inside the image (place text) */
-    position: relative;
-    /* Add a white text color to all elements inside the .bgimg container */
+  .header-container-img h1{
     color: white;
-    /* Add a font */
-    font-family: "Courier New", Courier, monospace;
-    /* Set the font-size to 25 pixels */
-    font-size: 25px;
+    margin-top: 250px;
+    margin-bottom: 0;
+    font-size: 60px;
+    text-align: center;
+
   }
-  
-  /* Position text in the top-left corner */
-  .topleft {
-    position: absolute;
-    top: 0;
-    left: 16px;
+  .header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
   }
-  
-  /* Position text in the bottom-left corner */
-  .bottomleft {
-    position: absolute;
-    bottom: 0;
-    left: 16px;
+  .menu-items{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
   }
-  
-  /* Position text in the middle */
-  .middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+  .menu-items a{
+    text-decoration: none;
+    font-size: 12px;
+    color: white;
+  } 
+  .btn-saznaj-vise{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+    border: 2px solid;
+    padding: 12px 24px 12px 24px;
+    border-radius: 4px;
+    margin-top: 80px;
+  }
+  .btn-saznaj-vise:hover{
+    background-color: white;
+	color: #0dad8d;
+	border-color: white;
+  }
+  .usluge-container{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  h2{
+    font-size: 32px;
+    color:rgb(85, 85, 85);
+  }
+  hr{
+    height: 3px;
+    width: 60px;
+    text-align: center;
+    position: relative;
+    background: rgb(13, 173, 141);
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    margin: 10px auto 30px;
+  }
+  .box-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  .box-1 p{
     text-align: center;
   }
-  
-  /* Style the <hr> element */
-  hr {
-    margin: auto;
-    width: 40%;
+  .box-1 h4{
+    font-size: 20px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 0;
+  }
+  .portfolio-container{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  .onama-container{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  .onama-container h4{
+    margin: 0;
+  }
+  .postignuca{
+    background-color: rgb(13, 191, 155);
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .postignuca h3, .postignuca p{
+    color: white;
+    text-align: center;
+  }
+  .postignuca h3{
+    font-size: 50px;
+    margin: 0;
+  }
+  .postignuca p{
+    font-size: 16px;
+  }
+  .tim-container{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  .tim-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25%;
+  }
+  .tim-box img{
+    height: 150px;
+    border-radius: 150px;
+    margin: 0;
+}
+.tim-box h3{
+    margin-bottom: 0;
+}
+.tim-box p{
+    margin: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+.kontakt-container{
+    padding-top: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 120px;
+  }
+  .logo{
+    width: 150px;
+    margin-top: 20px;
   }
