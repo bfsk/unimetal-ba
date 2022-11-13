@@ -136,6 +136,7 @@
   }
   .tim-box img{
     height: 150px;
+    width: 150px;
     border-radius: 150px;
     margin: 0;
 }
@@ -157,4 +158,50 @@
   .logo{
     width: 150px;
     margin-top: 20px;
+  }
+  .usluge-resp{
+    display: flex; justify-content: space-between; padding:0 100px; width: 100%; margin-top: 40px;
+  }
+  .onama-resp{
+    width: 100%; padding: 0 100px; display: flex; gap: 20px;
+  }
+  .tim-resp{
+    width: 100%; display:flex; justify-content: space-between; padding: 0 100px; margin-top: 50px;
+  }
+  @media only screen and (max-width: 500px) {
+    .usluge-resp{
+        flex-direction: column;
+        align-items: center;
+    }
+    .box-1{
+        width: 90%;
+    }
+    .onama-resp{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+    
+    .onama-resp img{
+        width: 90% !important;
+    }
+    .onama-resp div{
+        width: 90% !important;
+    }
+    .postignuca{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    .tim-resp{
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+        gap: 50px;
+    }
+    .tim-box{
+        width: 90%;
+    }
+    
   }
