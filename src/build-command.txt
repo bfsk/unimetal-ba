@@ -1,1 +1,2 @@
 ng build --base-href /unimetal-ba/ 
+ng build --base-href /unimetal-ba/  --deploy-url /unimetal-ba/
